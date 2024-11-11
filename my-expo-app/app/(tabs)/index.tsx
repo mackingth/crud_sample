@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, FlatList } from 'react-native';
 import axios from 'axios';
+import { API_URL } from '@env';
 
-const API_URL = 'http://192.168.0.11:3000/items';
 
 interface Item {
   id: number;
